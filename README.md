@@ -3,16 +3,22 @@
 # 🎮 TIC-TAC-TOE
 ### *Cyberpunk Neon Gaming Edition*
 
+[![Play Online](https://img.shields.io/badge/🎮_Live_Demo-Play_Online-06b6d4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://rakib24299.github.io/Tic-tac-Toe/)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
 
 <p align="center">
   A futuristic, high-performance, and responsive <b>Tic-Tac-Toe</b> web game built with vanilla technologies and styled with modern <b>Tailwind CSS</b>. Experience smooth micro-interactions, dynamic neon highlights, live turn tracking, celebratory fireworks, and 100% vector SVG icons.
 </p>
 
+### 🌐 **Live Website Link:**  
+**[👉 Click Here to Play Live Demo 👈](https://rakib24299.github.io/Tic-tac-Toe/)**
+
+<br/>
+
+[🌐 Live Demo](https://rakib24299.github.io/Tic-tac-Toe/) •
 [✨ Key Features](#-key-features) •
 [🕹️ Live Gameplay](#️-live-gameplay--ui-preview) •
 [🎨 Design System](#-color-palette--design-system) •
@@ -102,12 +108,19 @@ flowchart TD
 
 ## 🚀 Quick Start
 
-This project requires **zero dependencies** and **no build step**. You can run it instantly on any computer.
+This project requires **zero dependencies** and **no build step**.
 
-### Method 1: Instant Direct Launch
+### 🌟 Play Instantly Online (No Installation Needed)
+👉 **[Launch Live Game on GitHub Pages](https://rakib24299.github.io/Tic-tac-Toe/)**
+
+---
+
+### Local Setup (Run on Your PC)
+
+#### Method 1: Instant Direct Launch
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/your-username/Tic-tac-Toe.git
+   git clone https://github.com/Rakib24299/Tic-tac-Toe.git
    ```
 2. Double-click `index.html` to open it in your default browser.
 
