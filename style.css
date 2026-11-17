@@ -49,3 +49,27 @@ align-items: center;
     /* border:none; */
 
 }
+.newgamebtn{
+     background-color: #bde0fe;
+    padding:0.5rem ;
+    font-size: 20px ;
+    color: #fff;
+    border-radius: 0.5rem ;
+}
+
+#massage{
+    color:#fff;
+    font-size: 8vmin;
+}
+
+.msgcontainer{
+ 
+    height:30vmin;
+
+
+}
+
+
+.hide{
+    display: none;
+}

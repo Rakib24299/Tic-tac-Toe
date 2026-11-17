@@ -2,7 +2,14 @@ let boxs=document.querySelectorAll(".box")
 
 let resetbtn= document.querySelector(".resetbtn")
 
+let newgamebtn = document.querySelector(".newgamebtn");
+
+let msgcontainer= document.querySelector(".msgcontainer");
+
+let  massage= document.querySelector("#massage");
+
 let turnO = true ;  
+
 let winptrn = [
     [0,1,2],
     [0,3,6],
@@ -11,9 +18,16 @@ let winptrn = [
     [2,5,8],
     [2,4,6],
     [3,4,5],
-    [2,5,6],
     [6,7,8]
 ]
+
+const resetgame=()=>{
+
+    turnO= true;
+    enableleboxs();
+    msgcontainer.classList.add("hide")
+
+}
 
 boxs.forEach((box)=>{
     box.addEventListener("click",()=>{
@@ -34,6 +48,30 @@ boxs.forEach((box)=>{
     })
 })
 
+
+
+const desibleboxs=()=>{
+    for ( let box of boxs)
+    {
+        box.desibled= true;
+    }
+}
+
+
+const enableleboxs=()=>{
+    for ( let box of boxs)
+    {
+        box.desibled= false;
+        box.innerText="";
+    }
+}
+
+const showwinner=(Winner)=>{
+    massage.innerText = `Congratulations! Winner is ${Winner}`;
+    msgcontainer.classList.remove("hide")
+    desibleboxs();
+}
+
 const cheakwinner= ()=>{
     for (let pattern of winptrn){
         // console.log(pattern)
@@ -42,13 +80,18 @@ const cheakwinner= ()=>{
         let position3= boxs[pattern[2]].innerText
         
         
-        if(position1 != "" && position2 !="" & position3 !="")
+        if(position1 != "" && position2 !="" && position3 !="")
             
         {
             if( position1 === position2 && position2 === position3 )
             {
-                console.log(" Winner",position1)
+                console.log(" Winner",position1);
+
+                showwinner(position1);
             }
         }
     }
 }
+
+newgamebtn.addEventListener('click', newgamebtn);
+newgamebtn.addEventListener('click', resetbtn);
