@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🎮 TIC-TAC-TOE
-### *Cyberpunk Neon Gaming Edition*
+### 
 
 [![Play Online](https://img.shields.io/badge/🎮_Live_Demo-Play_Online-06b6d4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://rakib24299.github.io/Tic-tac-Toe/)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
